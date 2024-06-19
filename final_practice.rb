@@ -28,27 +28,37 @@ puts greeting
 
 # 2: Write a method named "custom_greeting" that returns a greeting WITH a specific name.
 def custom_greeting(name)
-  " Bonjour, #{name}!"
+  "Bonjour,#{name}!"
 end
-name = Anne
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+puts custom_greeting("Anne")
+# What is the return value of your method? "Bonjour, Anne"
+# How many arguments did you pass your method? One argument, Anne.
+# What data type was your argument(s)? My data type was a string.
 
 
 # 3: Write a method named "greet_person" that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
+def greet_person(first_name, mid_name, last_name)
+  " Bonjour, #{first_name, mid_name, last_name}, comment allez-vous?"
+end 
+puts greet_person("Anne", "Marie", "Maillard")
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+# What is the return value of your method? Bonjour, Anne Marie Maillard
+# How many arguments did you pass your method? I passed three arguments
+# What data type was your argument(s)? All my arguments were strings.
 
 
 # 4: Write a method named "square" that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method. You should not have to update the method itself to do this.
+def square(number)
+  number * number
+end
+puts square(4)
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+
+
+# What is the return value of your method? 16
+# How many arguments did you pass your method? I think there was only one argument since its timed by itself.
+# What data type was your argument(s)? My argument was an interger
 
 
 # 5: Write a method named "check_stock" that satisfies the following interaction pattern:
