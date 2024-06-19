@@ -17,12 +17,20 @@ puts last_laugh
 
 # 1: Write a method named "greeting" that returns a string with a generic greeting. 
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
+def greeting 
+   "Bonjour!"
+end
+puts greeting
+
+# What is the return value of your method?   Bonjour
+# How many arguments did you pass your method? There were no arguments
 
 
 # 2: Write a method named "custom_greeting" that returns a greeting WITH a specific name.
-
+def custom_greeting(name)
+  " Bonjour, #{name}!"
+end
+name = Anne
 # What is the return value of your method?
 # How many arguments did you pass your method?
 # What data type was your argument(s)?
