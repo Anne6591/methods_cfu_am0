@@ -85,12 +85,17 @@ puts divide (50,2)
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
-STUCK POINT WILL COME BACK TO IT.
-I'm going to call the method push function.  My variables are my_array and my_array2.  Both arrays  have four elements.  
 
-my_array = [ "chicken","lentils","rice","beans""]
-def my_array.push
+puts my_friends = ["Larry", "curly", "Moe", "harry"]
+puts my_friends
+my_friends.last
+puts my_friends
 
 
-my_array2 = [ "fork", "spoon","rknife","tounges"]
-my_array2.pop
+I'm going to call the method push function.  My variable is my_array and my elements are ["chicken", "lentils", "rice"]
+puts my_array = ["chicken", "lentils", "rice"]
+my_array.push("beans")
+puts my_array
+
+
+
